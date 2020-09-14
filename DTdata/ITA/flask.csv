@@ -1,0 +1,74 @@
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/blueprints.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.blueprints.Blueprint.__ini,var,url_defaults,None,166,"        url_defaults=None,"
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/blueprints.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.blueprints.Blueprint.__ini,var,url_defaults,dict,180,            url_defaults = {}
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/blueprints.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.blueprints.BlueprintSetupState.add_url_,var,rule,None,63,                rule = self.url_prefix
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/blueprints.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.blueprints.BlueprintSetupState.add_url_,var,rule,str,61,"                rule = ""/"".join((self.url_prefix.rstrip(""/""), rule.lstrip(""/"")))"
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers.send_fil,var,mimetype,None,456,"    mimetype=None,"
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers.send_fil,var,mimetype,str,579,            mimetype = (
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers.send_fil,var,fsize,int,619,        fsize = os.path.getsize(filename)
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers.send_fil,var,fsize,int,625,            fsize = os.path.getsize(filename)
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers.send_fil,var,fsize,None,561,    fsize = None
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers.send_fil,var,mtime,int,624,            mtime = os.path.getmtime(filename)
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers.send_fil,var,mtime,None,560,    mtime = None
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers.send_,var,filename,None,575,        filename = None
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers.send_,var,filename,str,567,        filename = filename_or_fp
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers.send_,var,filename,str,569,"            filename = os.path.join(current_app.root_path, filename)"
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers.send_,var,file,None,570,        file = None
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers.send_,var,file,{None | str},574,        file = filename_or_fp
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers.send_,var,file,file,623,"            file = open(filename, ""rb"")"
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers.send,var,attachment_filename,None,458,"    attachment_filename=None,"
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers.send,var,attachment_filename,str,572,            attachment_filename = os.path.basename(filename)
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers.send,var,attachment_filename,str,597,"            attachment_filename = attachment_filename.decode(""utf-8"")"
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers.send,var,attachment_filename,str,600,"            attachment_filename = attachment_filename.encode(""ascii"")"
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers._PackageBoundObje,func,static_url_path,? -> ?,1001,"    def static_url_path(self, value):"
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers._PackageBoundObje,func,static_url_path,_PackageBoundObject -> None,987,    def static_url_path(self):
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers._PackageBoundObj,func,static_folder,{? -> ? | str},981,"    def static_folder(self, value):"
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers._PackageBoundObj,func,static_folder,_PackageBoundObject -> str,975,    def static_folder(self):
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers.send_from_directory,var,filename,None,752,"    filename = safe_join(directory, filename)"
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/helpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.helpers.send_from_directory,var,filename,str,754,"        filename = os.path.join(current_app.root_path, filename)"
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/ctx.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.ctx.RequestContext,func,g,? -> ?,305,"    def g(self, value):"
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/ctx.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.ctx.RequestContext,func,g,RequestContext -> ?,301,    def g(self):
+/home/xxm/Desktop/EMSE/dataset/flask/examples/tutorial/flaskr/blog.py,.home.xxm.Desktop.EMSE.dataset.flask.examples.tutorial.flaskr.blog.creat,var,error,None,67,        error = None
+/home/xxm/Desktop/EMSE/dataset/flask/examples/tutorial/flaskr/blog.py,.home.xxm.Desktop.EMSE.dataset.flask.examples.tutorial.flaskr.blog.creat,var,error,str,70,"            error = ""Title is required."""
+/home/xxm/Desktop/EMSE/dataset/flask/examples/tutorial/flaskr/blog.py,.home.xxm.Desktop.EMSE.dataset.flask.examples.tutorial.flaskr.blog.updat,var,error,None,95,        error = None
+/home/xxm/Desktop/EMSE/dataset/flask/examples/tutorial/flaskr/blog.py,.home.xxm.Desktop.EMSE.dataset.flask.examples.tutorial.flaskr.blog.updat,var,error,str,98,"            error = ""Title is required."""
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/cli.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.cli.load_dotenv,var,new_dir,None,649,    new_dir = None
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/cli.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.cli.load_dotenv,var,new_dir,str,658,            new_dir = os.path.dirname(path)
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/cli.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.cli.ScriptInfo.load_,var,path,None,397,"                path, name = ("
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/cli.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.cli.ScriptInfo.load_,var,path,str,403,"                for path in (""wsgi.py"", ""app.py""):"
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/cli.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.cli.find_app_by_strin,var,args,None,164,        args = kwargs = None
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/cli.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.cli.find_app_by_strin,var,args,[?],176,            args = [ast.literal_eval(arg) for arg in expr.args]
+/home/xxm/Desktop/EMSE/dataset/flask/examples/tutorial/flaskr/auth.py,.home.xxm.Desktop.EMSE.dataset.flask.examples.tutorial.flaskr.auth.regist,var,error,None,57,        error = None
+/home/xxm/Desktop/EMSE/dataset/flask/examples/tutorial/flaskr/auth.py,.home.xxm.Desktop.EMSE.dataset.flask.examples.tutorial.flaskr.auth.regist,var,error,None,67,"            error = f""User {username} is already registered."""
+/home/xxm/Desktop/EMSE/dataset/flask/examples/tutorial/flaskr/auth.py,.home.xxm.Desktop.EMSE.dataset.flask.examples.tutorial.flaskr.auth.regist,var,error,str,60,"            error = ""Username is required."""
+/home/xxm/Desktop/EMSE/dataset/flask/examples/tutorial/flaskr/auth.py,.home.xxm.Desktop.EMSE.dataset.flask.examples.tutorial.flaskr.auth.regist,var,error,str,62,"            error = ""Password is required."""
+/home/xxm/Desktop/EMSE/dataset/flask/examples/tutorial/flaskr/auth.py,.home.xxm.Desktop.EMSE.dataset.flask.examples.tutorial.flaskr.auth.login,var,error,None,91,        error = None
+/home/xxm/Desktop/EMSE/dataset/flask/examples/tutorial/flaskr/auth.py,.home.xxm.Desktop.EMSE.dataset.flask.examples.tutorial.flaskr.auth.login,var,error,str,97,"            error = ""Incorrect username."""
+/home/xxm/Desktop/EMSE/dataset/flask/examples/tutorial/flaskr/auth.py,.home.xxm.Desktop.EMSE.dataset.flask.examples.tutorial.flaskr.auth.login,var,error,str,99,"            error = ""Incorrect password."""
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/debughelpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.debughelpers.explain_template_loading_attempts,var,detail,None,137,"            detail = f""found ({triple[1] or '<string>'!r})"""
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/debughelpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.debughelpers.explain_template_loading_attempts,var,detail,str,135,"            detail = ""no match"""
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/debughelpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.debughelpers.explain_template_loading_attempt,var,src_info,None,123,"            src_info = f""application {srcobj.import_name!r}"""
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/debughelpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.debughelpers.explain_template_loading_attempt,var,src_info,None,125,"            src_info = f""blueprint {srcobj.name!r} ({srcobj.import_name})"""
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/debughelpers.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.debughelpers.explain_template_loading_attempt,var,src_info,str,127,            src_info = repr(srcobj)
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/json/__init__.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.json.jsonify,var,indent,int,324,        indent = 2
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/json/__init__.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.json.jsonify,var,indent,None,320,    indent = None
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/app.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.app.Flask.run,var,host,None,954,                host = sn_host
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/app.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.app.Flask.run,var,host,str,956,"                host = ""127.0.0.1"""
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/app.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.app.Flask,var,instance_path,None,393,"        instance_path=None,"
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/app.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.app.Flask,var,instance_path,str,405,            instance_path = self.auto_find_instance_path()
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/app.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.app.Flask,func,debug,Flask -> None,845,    def debug(self):
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/app.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.app.Flask,func,debug,{? -> ? | bool},862,"    def debug(self, value):"
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/app.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.app.Flask,func,templates_auto_reload,? -> ?,735,"    def templates_auto_reload(self, value):"
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/app.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.app.Flask,func,templates_auto_reload,Flask -> ? -> ?,720,    def templates_auto_reload(self):
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/app.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.app.Flask.make_config,var,root_path,None,686,        root_path = self.root_path
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/app.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.app.Flask.make_config,var,root_path,str,688,            root_path = self.instance_path
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/app.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.app.Flask.add_url_rul,var,methods,[?],1174,        methods = {item.upper() for item in methods}
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/app.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.app.Flask.add_url_rul,var,methods,str,1168,"            methods = getattr(view_func, ""methods"", None) or (""GET"",)"
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/app.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.app.Flask.full_dispatch_request,var,rv,None,1864,            rv = self.preprocess_request()
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/app.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.app.Flask.full_dispatch_request,var,rv,None,1868,            rv = self.handle_user_exception(e)
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/app.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.app.Flask.full_dispatch_request,var,rv,Response,1866,                rv = self.dispatch_request()
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/app.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.app.Flask.make_response,var,rv,None,2018,                rv = jsonify(rv)
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/app.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.app.Flask.make_response,var,rv,Response,2015,"                rv = self.response_class(rv, status=status, headers=headers)"
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/testing.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.testing.EnvironBuilder.__ini,var,http_host,None,56,"                http_host = f""{subdomain}.{http_host}"""
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/testing.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.testing.EnvironBuilder.__ini,var,http_host,str,52,"            http_host = app.config.get(""SERVER_NAME"") or ""localhost"""
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/sessions.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.sessions.SessionMixi,func,permanent,? -> ?,24,"    def permanent(self, value):"
+/home/xxm/Desktop/EMSE/dataset/flask/src/flask/sessions.py,.home.xxm.Desktop.EMSE.dataset.flask.src.flask.sessions.SessionMixi,func,permanent,SessionMixin -> None,19,    def permanent(self):
